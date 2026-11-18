@@ -1,0 +1,71 @@
+NOME: Juan Cabezas
+NMEC: 137780
+3. Comando:$ pwd
+/workspaces/LABINFO-03-26-27
+4. git add identificacao.txt
+    git commit -m " Tarefa 1: adiciona o ficheiro de identificação"
+    git push
+Tarefa 2
+mkdir A137780
+cd A137780
+pwd
+Resultado: /workspaces/LABINFO-03-26-27/A137780
+echo "Teste de LI 2026/2027" > README.md
+cd ..
+pwd
+Resultado: /workspaces/LABINFO-03-26-27
+history > cmdstask2.txt
+git add A137780/README.md cmdstask2.txt
+git commit -m "2.ª tarefa concluída"
+git push
+Tarefa 3
+ cd ~
+git clone https://github.com/Jfer200732/LABINFO-03-26-27.git
+Cloning into 'LABINFO-03-26-27'...
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 15 (delta 0), reused 8 (delta 0), pack-reused 7 (from 1)
+Receiving objects: 100% (15/15), done.
+juan_fernando@DESKTOP-275OTRJ:~$ cd LABINFO-03-26-27
+juan_fernando@DESKTOP-275OTRJ:~/LABINFO-03-26-27$ code .
+tarefa 4
+juan_fernando@DESKTOP-275OTRJ:~/LABINFO-03-26-27$ git add index.html
+juan_fernando@DESKTOP-275OTRJ:~/LABINFO-03-26-27$ git commit -m "3.ª tarefa concluída"
+[main 1ba5344] 3.ª tarefa concluída
+ 1 file changed, 17 insertions(+)
+ create mode 100644 index.html
+juan_fernando@DESKTOP-275OTRJ:~/LABINFO-03-26-27$ git push
+tarefa 4
+git add index.html
+git commit -m "4.ª tarefa: adiciona navegação e conteúdo à página inicial"
+git push
+Tarefa 4
+git add index.html
+git commit -m "4.ª tarefa: adiciona navegação e conteúdo à página inicial"
+git push~
+Tarefa 5
+git pull
+cp index.html disciplina.html
+git add disciplina.html
+git commit -m "Cria disciplina.html a partir de index.html"
+git push
+git pull
+ls -la
+git add disciplina.html
+git commit -m "5.ª tarefa cumprida"
+git push
+tarefa 6
+6.ª tarefa:
+git pull
+history > meusComandosCodespace.txt
+cat meusComandosCodespace.txt
+git add meusComandosCodespace.txt
+git commit -m "Tarefa 6: regista o histórico do Codespace"
+git push
+git pull
+history > meusComandosLocais.txt
+cat meusComandosLocais.txt
+git add meusComandosLocais.txt
+git commit -m "Tarefa 6 cumprida"
+git push
