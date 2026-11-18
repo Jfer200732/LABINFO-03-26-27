@@ -1,0 +1,678 @@
+    1  wsl.exe --list --online
+    2  wsl.exe --install Ubuntu-24.04
+    3  wsl.exe -l -v
+    4  wsl.exe -d Ubuntu-24.04
+    5  cd ~
+    6  sudo apt update && sudo apt upgrade -y
+    7  ~sudo systemctl mask systemd-binfmt.service
+    8  sudo systemctl mask systemd-binfmt.service
+    9  ssh
+   10  ssh-bandit.labs.overthewire.org-port 2220
+   11  ssh-bandit.labs.overthewire.org
+   12  ssh
+   13  ssh -d
+   14  ssh -D[bind_address:bandit.labs.overthewire.org]port 2220]
+   15  SSH-D
+   16  ssh-D
+   17  ssh-d
+   18  ssh
+   19  ssh -p 2220 bandit0@bandit.labs.overthewire.org
+   20  bandit0
+   21  ssh-keygen -R [bandit.labs.overthewire.org]:2220
+   22  ssh bandit0@bandit.labs.overthewire.org -p 2220
+   23  ssh -v -p 2220 bandit0@bandit.labs.overthewire.org
+   24  ssh -p 2220 bandit0@bandit.labs.overthewire.org
+   25  ssh -p 2220 bandit0@bandit.labs.overthewire.org
+   26  ssh -4 -p 2220 bandit0@bandit.labs.overthewire.org
+   27  ssh -p 2220 bandit0@bandit.labs.overthewire.org
+   28  ssh -p 2220 bandit1@bandit.labs.overthewire.org
+   29  pwd
+   30  mkdir -v dir1
+   31  mkdir -v dir1/dir2/dir3
+   32  mkdir -vp dir2/dir3/dir4
+   33  ls
+   34  ls -R
+   35  cd dir2
+   36  cd dir3
+   37  cd ..
+   38  cd -
+   39  cd..
+   40  cd .
+   41  cd ..
+   42  cd dir3
+   43  cd -
+   44  cd
+   45  touch file1.txt
+   46  touch file2.txt
+   47  dir
+   48  clear
+   49  echo "hello"
+   50  echo "hello" > hello,txt
+   51  echo "hello" > hello.txt
+   52  echo "linux" >> hello.txt
+   53  echo "world" >> hello.txt
+   54  cat hello.txt
+   55  head hello.txt
+   56  head -2 hello.txt
+   57  head -1 hello.txt
+   58  tail hello.txt
+   59  tail -2 hello.txt
+   60  stat hello.txt
+   61  man cd
+   62  man pwd
+   63  man cd
+   64  du
+   65  du -xh ~
+   66  du --max-depth 3 ~
+   67  cat hello.txt
+   68  cp -v hello.txt dir2
+   69  du
+   70  cp -v hello.txt dir2/file2.txt
+   71  cp -v dir2/*.txt/dir3
+   72  man cp
+   73  cp  -vr dir2/*.txt dir2/dir3
+   74  cp -vr dir2/dir3
+   75  cp -vr dir2/dir3 .
+   76  ls
+   77  cat dir3
+   78  cat hello.txt
+   79  md5sum hello.txt
+   80  md5sum dir2/hello.txt
+   81  cp -vr dir3/*-txt dir3/dir2
+   82  cp -vr dir3/*.txt dir3/dir2
+   83  ls
+   84  dir
+   85  ls dir2
+   86  mv hello,txt hola.txt
+   87  ls dir3
+   88  mv hello.txt dir2/dir3/dir4/hi.txt
+   89  ls
+   90  ls dir3
+   91  ls dir4
+   92  ls dir3
+   93  cat dir4
+   94  ls dir4
+   95  mkdir -v dir5
+   96  mv dir2/*.txt dir5
+   97  mv dir5 dir50
+   98  ls
+   99  ls dir50
+  100  ls dir2
+  101  ln dir2/dir/dir4/hi.txt hello
+  102  ln  dir2/dir3/dir4/hi.txt hello
+  103  ln  stat hello
+  104  stat hello
+  105  stat dir2/dir3/dir4/hi.txt
+  106  ln -s dir2/dir3/di4/hi.txt softlink
+  107  stat softlink
+  108  rm -i file2.txt
+  109  man r
+  110  man rm
+  111  explorer.exe .
+  112  rm -ri dir50/*
+  113  rm -rf junk/*
+  114  rmdir dir50
+  115  ps
+  116  sleep 60 &
+  117  ps
+  118  kill12345
+  119  kill 12345
+  120  ps
+  121  kill -9 12345
+  122  sleep 30 &
+  123  kill all sleep
+  124  terminated sleep 30
+  125  killallsleep
+  126  killall sleep
+  127  sleep 30 &
+  128  killall sleep
+  129  killall -u webmianl
+  130  killall -u webminal
+  131  killall -u juan_fernando
+  132  killall -vu juan_fernando
+  133  killall -w find
+  134  sleep 30 &
+  135  killall -w sleep
+  136  pidof bash
+  137  pidof -s bash
+  138  nice -n 19 sleep 30 &
+  139  renice -n 19 12345
+  140  whoami
+  141  renice +1 -u juan_fernando
+  142  top
+  143  pstree
+  144  pstree -p
+  145  ls
+  146  cat softlink
+  147  cat dir2
+  148  cat hello.txt
+  149  cat fil1.txt
+  150  cat file1.txt
+  151  cat hols.txt
+  152  cat hola.txt
+  153  echo "burgos" > file1.txt
+  154  cat file1.txt
+  155  ls
+  156  time ls -l
+  157  time
+  158  time ls -l
+  159  ls dir3
+  160  mv file2.txt dir3/dir2
+  161  mv dir3/file2.txt dir2/
+  162  ls dir2
+  163  mv file2t.txt/burgos.txt
+  164  mv file2.txt burgos.txt
+  165  cd dir3
+  166  mv file2.txt ../dir2/
+  167  ls dir3
+  168  cd
+  169  cd ..
+  170  cd -
+  171  ls dir2
+  172  cd
+  173  ls dir
+  174  dir
+  175  ls dir3
+  176  ls dir2
+  177  mv file2.txt burgos.txt
+  178  dir2
+  179  cd dir2
+  180  mv file2.txt ../dir3/
+  181  ls dir2
+  182  cd
+  183  ls
+  184  ls dir3
+  185  ls dir2
+  186  mv -v dir3/*.txt /dir2/
+  187  mv -v dir3/*.txt dir2/
+  188  mv -v dir2/hello.txt dir3/
+  189  ls dir3
+  190  mv hello.txt burgos.txt
+  191  mv dir3/hello.txt burgos.txt
+  192  ls dir3
+  193  ls
+  194  mv burgos.txt dir3/
+  195  ls dir3
+  196  mv dir3/burgos.txt dir2/
+  197  mv dir2/*.txt dir2/
+  198  mv dir2/*.txt dir3/
+  199  ls dir3
+  200  dir
+  201  cat hola.txt
+  202  grep "hola" hola.txt
+  203  grep "linux" hello
+  204  grep -r hello
+  205  grepp -i "Linux" hello
+  206  grep -i "linux" hello
+  207  grep -n "linux" hello
+  208  grep -v "linux" hello
+  209  grep -v "world" hello
+  210  wc hello
+  211  wc -l hello
+  212  wc -L hello
+  213  echo -e "col1 col2 r1\ncol5 col6 r2\ncol3 col4 r3 " >> new.txt
+  214  echo -e "Hello\nlinux\nProgrammers paradise" >> linux.txt
+  215  ls
+  216  cut -f1 -d ' ' new.txt
+  217  paste hello new.txt
+  218  paste -s hello new.txt
+  219  sort new.txt
+  220  diff hello linux.txt
+  221  diff3 hello new.txt linux.txt
+  222  grep "world" hello
+  223  dirname dir2/dir3/dir4/hi.txt
+  224  basename dir2/dir3/dir4/hi.txt
+  225  chmod -v 666 file1.txt
+  226  read file1.txt
+  227  cat file1.txt
+  228  stat file1.txt
+  229  chmod a+rw file1.txt
+  230  stat file1.txt
+  231  chmod a-rw file1.txt
+  232  man chmod
+  233  chmod -R 644 ~/chmod_dir
+  234  chmod a+rw file1.txt
+  235  chmod -R 644 ~/chmod_dir
+  236  chown root filw1.txt
+  237  chown root:staff -R ^
+  238  chown root:staff -R ~/dir2
+  239  chown --from=juan_fernando:juan_fernando
+  240  chown --help
+  241  qq
+  242  q
+  243  chown root:staff -R ~/dir2
+  244  chgrp root file1.txt
+  245  Borra toda la ruta de carpetas devolviendo únicamente el nombre puro del archivo
+  246  Borra toda la ruta de carpetas devolviendo únicamente el nombre puro del archivochgrp: changing group of `file1.txt': Operation not permitted
+  247  chgrp: changing group of `file1.txt': Operation not permitted
+  248  reset
+  249  cd
+  250  r
+  251  reset
+  252  ehsbasbshas
+  253  php
+  254  wich php
+  255  php
+  256  php -v
+  257  php -a
+  258  ~ls
+  259  pwd
+  260  ls
+  261  chgrp -hR root dir2
+  262  sudo
+  263  sudo -u
+  264  sudo --u
+  265  sudo --
+  266  sudo
+  267  sudo chown root file1.txt
+  268  Jfbc13072007
+  269  sudo chown root file1.txt
+  270  file linux.txt
+  271  ls
+  272  ls dir3
+  273  mv dir3/burgos.txt xd.txt
+  274  ls dir3
+  275  ls
+  276  mv xd.txt dir3/
+  277  ls
+  278  ls dir3
+  279  mv linux.txt brayan.txt
+  280  ls
+  281  mv brayan.txt linux.txt
+  282  ls
+  283  file linux.txt
+  284  file /dev/null
+  285  file linux.txt
+  286  mv /*.txt dir3/
+  287  mv *.txt dir3/
+  288  ls dir3
+  289  mv dir3/*.txt .
+  290  ls
+  291  file linux.txt
+  292  file /dev/null
+  293  file -s /dev /null
+  294  man file
+  295  file -s /dev/sda2
+  296  whereis ls
+  297  whereis stdio.h
+  298  php
+  299  install php
+  300  installphp
+  301  sudo apt install php-cli
+  302  php
+  303  php
+  304  find ~ -name "linux.txt"
+  305  find . -type f -exec file '{}' \;
+  306  wich php
+  307  find . -name "*.txt" -exec ls -l {} \;
+  308  file ~name *.txt
+  309  file ~ burgos.txt
+  310  file ~ "burgos.txt"
+  311  ls
+  312  file ~ "linux.txt"
+  313  file -s /dev/sda2
+  314  file /dev/null
+  315  find ~ "burgos.txt"
+  316  find . -type f -exec file '{}' \;
+  317  pwd
+  318  basename dir2/dir3
+  319  basename dir2/dir3/dir4
+  320  basename dir2/dir3/dir4/hello.txt
+  321  dirname dir2/dir3/dir4/hello,txt
+  322  php
+  323  wich php
+  324  which php
+  325  <?php
+  326  ?>
+  327  php
+  328  echo $PATH.
+  329  cat
+  330  cat dir
+  331  cat dir1
+  332  cat linux.txt
+  333  cd dir
+  334  cd dir2
+  335  cat
+  336  cat dir2
+  337  cd
+  338  file linux.tx5
+  339  file linux.txt
+  340  file /dev/null
+  341  file ~ -name "linux.txt"
+  342  find ~ -name "linux.txt"
+  343  find . -type f -exec file '{}' \;
+  344  uptime
+  345  date
+  346  who
+  347  who -a
+  348  w
+  349  mount
+  350  mount -t ext4
+  351  df -h
+  352  free -m
+  353  hostnamw
+  354  hostname
+  355  *fedor*
+  356  *fedori
+  357  file /bin/hostname
+  358  cat /bin/hostname
+  359  ps
+  360  ps -o ppid 31400
+  361  ps -o ppide,cmd 27447
+  362  ps -o pppid,cmd 27447
+  363  ps -o ppid,cmd 27447
+  364  top
+  365  ps
+  366  phd
+  367  ps
+  368  php
+  369  sleep5
+  370  sleep 5
+  371  sleep 5 &
+  372  sleep 2
+  373  sleep 2 &
+  374  $ sleep 5 &
+  375  [1] 6208
+  376  $ pstree 5254
+  377  bash─┬─pstree
+  378  pstree
+  379  ps
+  380  time ls -1
+  381  jobs
+  382  sleep5&
+  383  git status
+  384  git init
+  385  git clone
+  386  git add .
+  387  ls
+  388  echo " luis maricon" > luis.txt
+  389  ls
+  390  cat luis.txt
+  391  git init
+  392  git clone
+  393  git clone luis.txt
+  394  mkdir -v luisgay
+  395  git clone luisgay
+  396  ls
+  397  git init
+  398  ssh-keygen -t ed25519 -C "jfer20073@gmail.com"
+  399  cat ~/.ssh/id_ed25519.pub
+  400  cat ~/.ssh/id_ed25519*.pub
+  401  ls -la ~/.ssh
+  402  ssh-keygen -t ed25519 -C "jfer20073@gmail.com" -f ~/.ssh/id_ed25519 -N ""
+  403  cat ~/.ssh/id_ed25519.pub | clip.exe
+  404  ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIP4PRaTykILh/OcIn/80ydbGOH6vsBjzleEkdnfgU0JE jfer20073@gmail.com
+  405  cat ~/.ssh/id_ed25519.pub | clip.exe
+  406  git add index.html
+  407  git commit -m "Creada pagina de inicio index.html"
+  408  git push
+  409  git remote set-url origin git@github.com:Jfer200732/MURAL.git
+  410  git add .
+  411  git commit -m "Añadido archivo HTML"
+  412  git push
+  413  git add .
+  414  git commit -m "anadi texto"
+  415  git push
+  416  git add .
+  417  git commit -m "Añadido archivo HTML"
+  418  it add .
+  419  git commit -m "Añadido texto al archivo HTML"
+  420  git push
+  421  git add .
+  422  git commit -m "anadido texto"
+  423  git push
+  424  git add .
+  425  git commit -m "anadido texto"
+  426  git push
+  427  git add .
+  428  git commit -m "anadido texto"
+  429  git push
+  430  ssh -T git@github.com
+  431  git clone git@github.com:Jfer20073/prueba-git.git
+  432  git@github.com:Jfer200732/prueba-git.git
+  433  git clone git@github.com:Jfer200732/prueba-git.git
+  434  cd prueba-git
+  435  echo "Hola desde WSL" > hola.txt
+  436  git add .
+  437  git commit -m "Mi primer commit usando SSH"
+  438  git push
+  439  git config --global user.email "jfer20073@gmail.com"
+  440  git config --global user.name "Jfer200732"
+  441  git commit -m "Mi primer commit usando SSH"
+  442  git push
+  443  git status
+  444  Bash
+  445  echo "Segunda línea de texto" >> hola.txt
+  446  echo "# Mi Proyecto de Prueba" > README.md
+  447  echo "Segunda línea de texto" >> hola.txt
+  448  cho "# Mi proyecto de prueba" > README.md
+  449  echo "# Mi proyecto de prueba" > README.md
+  450  git status
+  451  git add .
+  452  git status
+  453  git commit -m "Actualizados README.md y hola.txt"
+  454  git push
+  455  git commit -m "Actualizados README.md y hola.txt"
+  456  git log --oneline
+  457  pwd
+  458  git clone https://github.com/Jfer200732/prueba-git.git
+  459  git remote -v
+  460  git clone https://github.com/Jfer200732/MURAL.git
+  461  cd mural
+  462  cd MURAL
+  463  echo "Probando autenticación por HTTPS" > prueba.txt
+  464  git add .
+  465  git commit -m "Test de token HTTPS"
+  466  git push
+  467  git add .
+  468  git commit -m "Test de token HTTPS"
+  469  git push
+  470  ~CODE .
+  471  code .
+  472  git status
+  473  git add bootstarp.html
+  474  git add bootstrap.html
+  475  git commit -m "Cria a primeira página HTML"
+  476  git push
+  477  ls
+  478  cd index.html
+  479  file index.html 
+  480  cat index.html
+  481  git add .
+  482  git commit -m "Renombrado a index.html con Bootstrap funcionando"
+  483  git push
+  484  git add .
+  485  git commit -m "Adiciona barra de navegação responsiva Bootstrap"
+  486  git push
+  487  git add index.html
+  488  git commit -m "Adicciona bootstrap a minha apresentaçao"
+  489  git push
+  490  git add index.html
+  491  git commit -m "cambios bootstrap"
+  492  git push
+  493  # Ficheiros do sistema operativo
+  494  .DS_Store
+  495  Thumbs.db
+  496  # Pastas e ficheiros do VS Code que não precisam de ir para o GitHub
+  497  .vscode/
+  498  *.code-workspace
+  499  # Configurações pessoais ou credenciais
+  500  .env
+  501  *.env
+  502  secrets.*
+  503  # Outros ficheiros temporários
+  504  *.tmp
+  505  *.log
+  506  git add .gitignore index.html
+  507  git commit -m "Personaliza página e adiciona ficheiro .gitignore"
+  508  git push
+  509  git add .gitignore index.html
+  510  git commit -m "Personaliza página e adiciona ficheiro .gitignore"
+  511  git push
+  512  git add .gitignore index.html
+  513  git add .
+  514  git commit -m "Personaliza pagina e adiciona gitignore"
+  515  git push
+  516  git add .gitignore index.html
+  517  git commit -m "Personaliza página e adiciona ficheiro .gitignore"
+  518  git push
+  519  git add index.html
+  520  git commit -m "Desafio concluído: 3 colunas com col-md-4"
+  521  git push
+  522  git diff
+  523  git add index.html
+  524  git diff --staged
+  525  git commit -m "Completa a página com cartões e rodapé"
+  526  git push
+  527  git status
+  528  git add index.html
+  529  git diff
+  530  git commit -m
+  531  git commit -m "Completa a página com cartões e rodapé"
+  532  git push
+  533  cd ~
+  534  git clone git@github.com:Jfer200732/primeira-pagina-bootstrap.git
+  535  cd primeira-pagina-bootstrap
+  536  git status
+  537  code .
+  538  cd primeira-pagina-bootstrap
+  539  pwd
+  540  ls
+  541  code formulario.html
+  542  code .
+  543  git add formulario.html
+  544  git commit -m "Adiciona ficheiro formulario.html"
+  545  git push
+  546  git add formulario.html
+  547  git commit -m "Adiciona links CDN de Bootstrap e jQuery ao formulario.html"
+  548  git push
+  549  git add formulario.html
+  550  git commit -m "Adiciona container-fluid e tag form com action"
+  551  git push
+  552  git add formulario.html
+  553  git commit -m "Adiciona linhas do formulario com grelha col-6 e col-md-6"
+  554  git push
+  555  git add formulario.html
+  556  git commit -m "Adiciona linhas do formulario com grelha col-6 e col-md-6"
+  557  git push
+  558  git add formulario.html
+  559  git commit -m "Adiciona linhas do formulario com grelha col-6 e col-md-6"
+  560  git push
+  561  git add formulario.html
+  562  git commit -m "Adiciona linhas do formulario com grelha col-6 e col-md-6"
+  563  git push
+  564  git add formulario.html
+  565  git commit -m "Adiciona linhas do formulario com grelha col-6 e col-md-6"
+  566  git push
+  567  git add .
+  568  git commit -m "Adiciona grelha responsiva ao formulario.html"
+  569  git push
+  570  git add formulario.html
+  571  git commit -m "Completa formulario aproximado da imagem de exercicio"
+  572  git push
+  573  git add formulario.html
+  574  git commit -m "Completa formulario aproximado da imagem de exercicio"
+  575  git push
+  576  git add formulario.html
+  577  git commit -m "Completa formulario aproximado da imagem de exercicio"
+  578  git push
+  579  git status
+  580  git add formulario.html
+  581  git commit -m "Garante labels com for, tipos de input corretos e submit no formulario"
+  582  git push
+  583  git add formulario.html
+  584  git commit -m "Adiciona validacao do Bootstrap com JavaScript ao formulario"
+  585  git push
+  586  it add formulario.html
+  587  git commit -m "Adiciona validacao do Bootstrap com JavaScript ao formulario"
+  588  git push
+  589  git add formulario.html
+  590  git commit -m "Adiciona validacao do Bootstrap com JavaScript ao formulario"
+  591  git push
+  592  it add formulario.html
+  593  git commit -m "Adiciona mensagens valid-feedback e invalid-feedback ao formulario"
+  594  git push
+  595  git add formulario.html
+  596  git commit -m "Adiciona mensagens valid-feedback e invalid-feedback ao formulario"
+  597  git push
+  598  git add formulario.html
+  599  git commit -m "Adiciona funcao clearForm com onclick no botao cancelar"
+  600  git push
+  601  git status
+  602  git add formulario.html
+  603  git commit -m "Adiciona controlo range e funcao rangeDefinido com estilos dinâmicos de alerta"
+  604  git push
+  605  git status
+  606  git add formulario.html
+  607  git commit -m "Adiciona controlo range e funcao rangeDefinido com estilos dinâmicos de alerta"
+  608  git push
+  609  git status
+  610  git add formulario.html
+  611  git commit -m "Añade degradado azul dinamico al slider de rango"
+  612  git push
+  613  git status
+  614  echo "# Graficos-Sparkline" >> README.md
+  615  git init
+  616  git add README.md
+  617  git commit -m "first commit"
+  618  git branch -M main
+  619  git remote add origin https://github.com/Jfer200732/Graficos-Sparkline.git
+  620  git push -u origin main
+  621  cd ~
+  622  git clone https://github.com/Jfer200732/Graficos-Sparkline.git
+  623  cd Graficos-Sparkline
+  624  code .
+  625  cp /mnt/c/Users/Fernando/Downloads/dataset.csv .
+  626  zip entrega_sparkline.zip chart.html dataset.csv
+  627  cp /mnt/c/Users/Fernando/Downloads/dataset.csv .
+  628  rm -f dataset.csv:Zone.Identifier
+  629  git add chart.html dataset.csv
+  630  git commit -m "Conclui graficos Sparkline com leitura CSV e legenda"
+  631  git push
+  632  git remote set-url origin git@github.com:Jfer200732/Graficos-Sparkline.git
+  633  git push -u origin main
+  634  rm -f *.zip && zip entrega_sparkline.zip chart.html dataset.csv
+  635  explorer.exe .
+  636  rm -f *.zip && python3 -m zipfile -c entrega_sparkline.zip chart.html dataset.csv
+  637  python3 -m zipfile -l entrega_sparkline.zip
+  638  git add index.html
+  639  git commit -m "3.ª tarefa concluída"
+  640  git push
+  641  juan_fernando@DESKTOP-275OTRJ:~/LABINFO-03-26-27$ git add index.html
+  642  juan_fernando@DESKTOP-275OTRJ:~/LABINFO-03-26-27$ git commit -m "3.ª tarefa concluída"
+  643  [main 1ba5344] 3.ª tarefa concluída
+  644  juan_fernando@DESKTOP-275OTRJ:~/LABINFO-03-26-27$ git push
+  645  git add index.html
+  646  git commit -m "3.ª tarefa concluída"
+  647  git push
+  648  git remote set-url origin git@github.com:Jfer200732/LABINFO-03-26-27.git
+  649  git push
+  650  git add index.html
+  651  git commit -m "4.ª tarefa: adiciona navegação e conteúdo à página inicial"
+  652  git push
+  653  git pull
+  654  cp index.html disciplina.html
+  655  git add disciplina.html
+  656  git commit -m "Cria disciplina.html a partir de index.html"
+  657  git push
+  658  git add disciplina.html
+  659  git commit -m " 5.ª tarefa cumprida"
+  660  git push
+  661  git pull
+  662  history > meusComandosCodespace.txt
+  663  cat meusComandosCodespace.txt
+  664  git add A-137780.
+  665  git commit -m "Adicione "
+  666  git commit -m "adicione"
+  667  git add A-137780.txt
+  668  it add A
+  669  git add A-137780.txt.
+  670  git add A-137780.txt
+  671  git add 137780.txt
+  672  it add indentificacao.txt
+  673  git add identificacao.txt
+  674  git commit -m "adicionar lo que hice"
+  675  git push
+  676  git add A-137780
+  677  git add A137780.txt
+  678  history > meusComandosLocais.txt
